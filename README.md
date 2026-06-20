@@ -25,9 +25,9 @@ https://github.com/gm-max/health-os-starter onto my computer in a folder
 called "health-os" (clone it with git, or just download the files if git
 isn't there), and from now on work inside that folder.
 
-Then read everything in it: start with instructions.md (that is your full
-role), then profile.md, everything in data/ and protocol/, dashboard.md, and
-research/open-questions.md.
+Then read everything in it: start with index.md (the map), then
+instructions.md (that is your full role), then profile.md, everything in
+data/ and protocol/, dashboard.md, and research/open-questions.md.
 
 These files are filled with example data for a fake person ("Jane Doe"). Help
 me replace it with mine, one file at a time, starting with profile.md, then
@@ -55,6 +55,7 @@ Prefer to do it yourself? Fork the repo or click **Use this template** at the to
 ```
 health-os/
 ├── README.md              you are here
+├── index.md               the map of your wiki, the AI keeps it current as it grows
 ├── instructions.md        the important file: turns the AI into your coach
 ├── EXAMPLES.md            what read / build / coach look like in use
 ├── LICENSE                MIT, do what you want with it
