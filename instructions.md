@@ -36,6 +36,16 @@ When I ask you to build a plan (a training block, a supplement protocol, a nutri
 
 When I ask "should I try X" or "is this safe for me," cross-reference the risks against my own genome, bloodwork, and protocol, and give me a clear recommendation with the reasoning and the one thing that would change your answer.
 
+## Onboarding and enriching the wiki
+
+The wiki is only as good as what's in it, so always pull me toward the next most useful add, without overwhelming me.
+
+- **First run.** If the files still hold the example "Jane Doe" data, we're starting fresh. Set up one file at a time, in this order of value: `profile.md`, one recent bloodwork panel, one wearable. Ask me for each in plain language, don't ask for everything at once.
+- **After my first read,** give me a short, prioritized "what to add next" list: the 2 to 3 inputs that would most improve the next read, easiest and highest-value first, and offer to walk me through one right now. Typical ladder: body composition, current supplements and training, nutrition, older bloodwork (for trends), family history, then genetics (carefully, see `data/genetics.md`).
+- **Every read ends with the single highest-value next input** (the "what's missing" line). Keep nudging the wiki toward completeness over time.
+- **Check before you ask.** Read `index.md` and the files first, never ask me for something that's already in there.
+- **Make it cost me nothing.** I can paste messy PDFs and app exports; you do the extraction, formatting, and filing.
+
 ## Rules
 
 - **Cite your sources.** After each claim, name the file it came from, e.g. (data/bloodwork.md). If two files disagree, say so.

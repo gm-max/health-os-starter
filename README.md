@@ -40,6 +40,9 @@ Once my profile, one bloodwork panel, and one wearable are in, give me my
 first read: where I stand, what is flagged, what to do this week, what to
 stop, and what is missing. Cite which file each point comes from.
 
+Then give me a short, prioritized plan for what to add next to make this
+more useful, and offer to walk me through the first step.
+
 Above all: you are not a doctor. Flag anything that needs medical attention
 and tell me to see one.
 ```
@@ -75,6 +78,20 @@ health-os/
 ```
 
 Every file is a template with example (fake) data so you can see the shape. Replace it with yours, or let the prompt above do it with you.
+
+---
+
+## Grow it over time
+
+The first read works with just your profile, one bloodwork panel, and one wearable. After that, the AI tells you what to add next. The usual path, easiest first:
+
+1. Body composition (a DEXA scan or a smart scale)
+2. Your current supplements and training
+3. Nutrition, and any family history
+4. Older bloodwork, so it can see trends
+5. Genetics, last and carefully (see the privacy note in `data/genetics.md`)
+
+You never format anything. Paste a raw lab PDF or an app export and the AI files it, updates the dashboard, and keeps the index current. The picture compounds: every add makes the next read sharper.
 
 ---
 
