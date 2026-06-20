@@ -46,7 +46,7 @@ and tell me to see one.
 
 That's the whole setup. From here on, whenever you get a new lab or another month of wearable data, paste it to Claude and say "give me my read."
 
-Prefer to set it up yourself? Fork this repo or click **Use this template** at the top, then jump to "Set it up by hand" below.
+Prefer to do it yourself? Fork the repo or click **Use this template** at the top, drop the folder into your tool, and paste the same prompt.
 
 ---
 
@@ -74,18 +74,6 @@ health-os/
 ```
 
 Every file is a template with example (fake) data so you can see the shape. Replace it with yours, or let the prompt above do it with you.
-
----
-
-## Set it up by hand (optional)
-
-The prompt above already does this with you. Here's the same thing spelled out, if you'd rather go step by step or use a different tool.
-
-1. **Get a tool that can read a folder of files.** Any of: Claude (the Cowork desktop app or Claude Code), OpenAI Codex, or any AI you can point at a folder. Free tiers work to start.
-2. **Put your data in.** Export what you have (lab portal PDFs, your Whoop/Oura/Garmin, Apple Health, a DEXA report) and paste the numbers into the matching file under `data/`. You don't need everything on day one. Start with bloodwork and one wearable.
-3. **Set the AI's role.** Give it `instructions.md` as its system prompt / project instructions (in Claude Cowork or Claude Code, drop this folder in and it reads it automatically; otherwise paste `instructions.md` at the start).
-4. **Ask for your read.** "Give me my weekly read." It returns: where you stand, what's flagged, what to do, what to stop, and what's missing.
-5. **Keep it alive.** Each time you get a new lab or a new month of wearable data, drop it in the right file and ask again. The picture compounds.
 
 ---
 
