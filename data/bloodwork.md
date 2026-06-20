@@ -1,6 +1,6 @@
 # Bloodwork
 
-> Paste your panels with dates so the AI can trend them. Keep units. Example (fake) data below.
+> Paste your panels with dates so the AI can trend them. Keep units. Newest on top. Example (fake) data below.
 
 ## 2026-05-20 (most recent)
 - Vitamin D (25-OH): 22 ng/mL  (ref 30 to 100, my target 50 to 70)

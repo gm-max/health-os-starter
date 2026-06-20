@@ -1,6 +1,6 @@
 # Dashboard
 
-> The AI keeps this updated. A plain-language snapshot of where you stand. Example below.
+> The AI keeps this updated alongside index.md whenever new data lands. A plain-language snapshot of where you stand. Example below.
 
 _Last updated: 2026-06-01_
 

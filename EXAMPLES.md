@@ -55,4 +55,18 @@ These are real-shaped outputs from the example "Jane Doe" data in this template,
 
 ---
 
+## 4. Add data: "here's my new blood panel" (you paste a lab)
+
+> Filed it. Here's what changed.
+>
+> - Added the 2026-08-12 panel to the top of data/bloodwork.md (newest on top).
+> - Ferritin is now 41 µg/L, up from 18. The iron protocol is working; it's no longer your weakest marker.
+> - Updated dashboard.md (ferritin 🔴 to 🟡) and the bloodwork date in index.md.
+>
+> One action changes: you can drop the iron supplement to a maintenance dose now, recheck in 12 weeks to confirm it holds (protocol/supplements.md).
+
+This is the loop that makes it compound: data in, files updated, index kept current, and you're told what moved.
+
+---
+
 _Want to see these on your own data? Drop your numbers into the files and ask. The shape stays the same; the answers become yours._

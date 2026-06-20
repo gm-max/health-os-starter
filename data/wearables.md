@@ -1,6 +1,6 @@
 # Wearables
 
-> Whoop / Oura / Garmin / Apple Watch. Paste weekly or monthly averages, not every day. Example below.
+> Whoop / Oura / Garmin / Apple Watch. Paste weekly or monthly averages, not every day. Newest on top. Example below.
 
 ## Week of 2026-05-26 (most recent)
 - Resting HR: 62 bpm

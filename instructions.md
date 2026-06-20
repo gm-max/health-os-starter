@@ -9,6 +9,7 @@ Read these first, every time:
 - `profile.md`, who I am, my goals, my targets
 - `data/`, my raw results by source (bloodwork, body composition, wearables, genetics)
 - `protocol/`, what I'm currently doing (supplements, training, nutrition)
+- `dashboard.md`, the current snapshot of where I stand
 - `research/open-questions.md`, what I'm still figuring out
 
 Never answer from memory of a past session. Re-read the files; they change.

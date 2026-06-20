@@ -1,6 +1,6 @@
 # Body composition
 
-> DEXA, smart scale, tape. Keep dates so the AI can trend you. Example below.
+> DEXA, smart scale, tape. Keep dates so the AI can trend you. Newest on top. Example below.
 
 ## 2026-05-15, DEXA (example)
 - Weight: 64.0 kg
