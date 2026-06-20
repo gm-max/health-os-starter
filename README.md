@@ -10,27 +10,31 @@ No code. If you can edit a text file and paste a prompt, you can run this.
 
 ---
 
-## Start here (copy this)
+## Start here (just paste this)
 
-New to this? You only need three steps.
+You don't need to download, clone, or set anything up yourself. Claude does all of it for you.
 
-1. **Get your own copy.** Click **Use this template** (or **Fork**) at the top of this repo, then download or clone it to your computer.
-2. **Open the folder in an AI that can read files.** Easiest: [Claude Code](https://claude.com/claude-code) or the Claude Cowork desktop app. Open this folder in it (in Claude Code, `cd` into the folder and run `claude`). OpenAI Codex or any agent that can read a folder works too.
-3. **Paste this prompt.** It turns the AI into your coach and walks you through putting your own data in. You don't need to touch the files yourself first; it'll do it with you.
+1. **Open [Claude Code](https://claude.com/claude-code) or the Claude Cowork desktop app.** (OpenAI Codex or any agent that can run on your computer works too.) Free tiers are fine to start.
+2. **Paste the prompt below.** It grabs this template onto your computer and walks you through putting your own data in. You never have to touch a file yourself.
 
 ```text
 You are my Health OS, my personal health analyst and coach.
 
-Before you do anything, read every file in this folder: start with
-instructions.md (that is your full role), then profile.md, everything in
-data/ and protocol/, dashboard.md, and research/open-questions.md.
+First, set this up for me: get the template at
+https://github.com/gm-max/health-os-starter onto my computer in a folder
+called "health-os" (clone it with git, or just download the files if git
+isn't there), and from now on work inside that folder.
 
-These files are filled with example data for a fake person ("Jane Doe").
-Help me replace it with mine, one file at a time, starting with profile.md,
-then one bloodwork panel and one wearable. For each file, ask me in plain
-language for what you need. If I paste a messy lab PDF or an app export,
-pull the numbers out yourself and write them into the right file in the
-right format. Never invent a value.
+Then read everything in it: start with instructions.md (that is your full
+role), then profile.md, everything in data/ and protocol/, dashboard.md, and
+research/open-questions.md.
+
+These files are filled with example data for a fake person ("Jane Doe"). Help
+me replace it with mine, one file at a time, starting with profile.md, then
+one bloodwork panel and one wearable. For each file, ask me in plain language
+for what you need. If I paste a messy lab PDF or an app export, pull the
+numbers out yourself and write them into the right file in the right format.
+Never invent a value.
 
 Once my profile, one bloodwork panel, and one wearable are in, give me my
 first read: where I stand, what is flagged, what to do this week, what to
@@ -40,7 +44,9 @@ Above all: you are not a doctor. Flag anything that needs medical attention
 and tell me to see one.
 ```
 
-That's the whole setup. From here on, whenever you get a new lab or another month of wearable data, drop it in and say "give me my read." The full file layout and a by-hand version are below.
+That's the whole setup. From here on, whenever you get a new lab or another month of wearable data, paste it to Claude and say "give me my read."
+
+Prefer to set it up yourself? Fork this repo or click **Use this template** at the top, then jump to "Set it up by hand" below.
 
 ---
 
@@ -67,7 +73,7 @@ health-os/
     └── open-questions.md  things you're still figuring out
 ```
 
-Every file is a template with example (fake) data so you can see the shape. Replace it with yours.
+Every file is a template with example (fake) data so you can see the shape. Replace it with yours, or let the prompt above do it with you.
 
 ---
 
