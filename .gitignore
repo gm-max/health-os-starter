@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Keep your real, private health data out of git.
+# This template ships with fake example data. If you fork it for your own use,
+# uncomment the lines below so you never accidentally commit your real numbers.
+# data/
+# protocol/
+# dashboard.md
+# profile.md
