@@ -1,0 +1,29 @@
+name: Daily Health OS coach
+
+# Texts you your daily read, with no server of your own.
+# Setup (5 min) is in going-further/README.md. You need three repo secrets:
+#   ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+
+on:
+  schedule:
+    # 07:00 UTC every day. GitHub cron is always UTC, so adjust for your zone
+    # (e.g. 06:00 Paris winter -> "0 5 * * *"). Change the time, keep the format.
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}   # lets you run it by hand from the Actions tab to test
+
+jobs:
+  coach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send today's read
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: pin a model you have access to, or change the daily question.
+          MODEL: ${{ vars.MODEL }}
+        run: python going-further/coach.py

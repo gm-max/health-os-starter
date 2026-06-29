@@ -12,3 +12,7 @@ Thumbs.db
 # protocol/
 # dashboard.md
 # profile.md
+
+# Python
+__pycache__/
+*.pyc
