@@ -74,7 +74,8 @@ health-os/
 ├── protocol/              what you're doing, and what the AI builds with you
 │   ├── supplements.md
 │   ├── training.md
-│   └── nutrition.md
+│   ├── nutrition.md
+│   └── peptides.md        clinician-supervised compounds, GLP-1s and similar (safety note inside)
 ├── research/
 │   └── open-questions.md  things you're still figuring out
 └── going-further/         optional: make it text you every morning (its README has the setup)

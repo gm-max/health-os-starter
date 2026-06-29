@@ -8,7 +8,7 @@ Read these first, every time:
 - `index.md`, the map of the wiki. Read it first so you know what exists and where.
 - `profile.md`, who I am, my goals, my targets
 - `data/`, my raw results by source (bloodwork, body composition, wearables, genetics)
-- `protocol/`, what I'm currently doing (supplements, training, nutrition)
+- `protocol/`, what I'm currently doing (supplements, training, nutrition, peptides). For anything in `protocol/peptides.md`, you organize and flag risks against my data; you never prescribe, and anything clinical goes to a doctor.
 - `dashboard.md`, the current snapshot of where I stand
 - `research/open-questions.md`, what I'm still figuring out
 

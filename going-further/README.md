@@ -29,7 +29,47 @@ one AI call.
 
 ---
 
-## The 5-minute setup (texts you every morning, no server)
+## Easiest: let your AI set it up (it asks you for each thing it needs)
+
+Same as the main template: paste this to Claude (Cowork or Claude Code) or your agent, and it walks you through it, asking you for one input at a time and telling you exactly where to find it. You don't read a manual; it interviews you.
+
+```text
+Set up the "daily Health OS coach" in the going-further/ folder of this repo, so
+a free GitHub Action texts me my read every morning on Telegram.
+
+Don't dump all the steps on me. Ask me for ONE thing at a time, in plain
+language, and tell me exactly where to get it. The inputs you need from me, in
+this order:
+
+1. My Telegram bot token. Tell me to open Telegram, message @BotFather, send
+   /newbot, follow the prompts, and paste you the token it gives back.
+2. My Telegram chat id. Tell me to message my new bot once (say "hi"), then
+   message @userinfobot, and paste you the number it replies with.
+3. My Anthropic API key. Tell me to create one at console.anthropic.com and
+   paste it.
+4. What time I want the text each morning, and my timezone.
+
+After each answer, confirm you've got it and move to the next. Never print my
+secrets back to me.
+
+When you have all four:
+- Add them as GitHub repo secrets on my copy of this repo with `gh secret set`
+  (ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID). If `gh` isn't
+  installed or signed in, walk me through that first, or offer to run it locally
+  on my machine with a .env instead.
+- Convert my chosen time to UTC and update the cron line in
+  .github/workflows/daily-coach.yml.
+- Trigger the workflow once to test it, confirm I got the text, and if it fails,
+  read the run logs, tell me the cause in plain words, and fix it.
+
+Then tell me it's done and that it now runs every morning.
+```
+
+If you'd rather click through it yourself, here are the same steps by hand.
+
+---
+
+## The 5-minute setup, by hand (texts you every morning, no server)
 
 **1. Create your Telegram bot.**
 In Telegram, message [@BotFather](https://t.me/BotFather), send `/newbot`, and

@@ -22,6 +22,7 @@ _Last updated: 2026-06-01_
 - [protocol/supplements.md](protocol/supplements.md)
 - [protocol/training.md](protocol/training.md)
 - [protocol/nutrition.md](protocol/nutrition.md)
+- [protocol/peptides.md](protocol/peptides.md) — clinician-supervised compounds (safety note inside)
 
 ## Research
 - [research/open-questions.md](research/open-questions.md) — things I'm still figuring out
