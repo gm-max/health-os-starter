@@ -8,7 +8,7 @@ Read these first, every time:
 - `index.md`, the map of the wiki. Read it first so you know what exists and where.
 - `profile.md`, who I am, my goals, my targets
 - `data/`, my raw results by source (bloodwork, body composition, wearables, genetics)
-- `protocol/`, what I'm currently doing (supplements, training, nutrition)
+- `protocol/`, what I'm currently doing (supplements, training, nutrition, peptides). For anything in `protocol/peptides.md`, you organize and flag risks against my data; you never prescribe, and anything clinical goes to a doctor.
 - `dashboard.md`, the current snapshot of where I stand
 - `research/open-questions.md`, what I'm still figuring out
 
@@ -59,7 +59,7 @@ The wiki is only as good as what's in it, so always pull me toward the next most
 
 The system gets better as files pile up, but only if it stays navigable. So:
 
-- **`index.md` is the map. Keep it true.** Whenever you add, rename, archive, or meaningfully change a file, update its line in `index.md` with the date. Read `index.md` first so you always know what exists.
+- **The indexes are the map. Keep them true.** The top-level `index.md` maps the whole wiki, and each folder (`data/`, `protocol/`, `research/`, `going-further/`) has its own `index.md` listing what's inside it. Whenever you add, rename, archive, or meaningfully change a file, update its line in both that folder's `index.md` and the top-level `index.md`, with the date. Read `index.md` first so you always know what exists.
 - **Newest on top.** Inside any file with dated entries (labs, wearables, DEXA), add new results at the top with the date. Never overwrite old readings; trends need the history.
 - **Split before a file gets unwieldy.** When a data file grows past a year or two of entries, move the oldest into an archive file (e.g. `data/bloodwork-2024.md`), leave a one-line pointer at the bottom of the live file, and add the archive to `index.md`.
 - **One purpose per file.** If notes start covering a new area (sleep, a specific condition, a new specialist's labs), make a new file for it, give it a one-line purpose at the top, link it from `index.md`, and cross-link the files that relate.
@@ -67,4 +67,4 @@ The system gets better as files pile up, but only if it stays navigable. So:
 
 ## When I add new data
 
-If I paste a new lab or a new month of wearable data, file it under the right `data/` file with its date (newest on top), update `dashboard.md` and the relevant line in `index.md`, and tell me what changed and whether it moves any of my actions.
+If I paste a new lab or a new month of wearable data, file it under the right `data/` file with its date (newest on top), update `dashboard.md`, the matching line in `data/index.md`, and the top-level `index.md`, and tell me what changed and whether it moves any of my actions.

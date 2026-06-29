@@ -67,17 +67,22 @@ health-os/
 ├── profile.md             who you are, your goals, your targets
 ├── dashboard.md           a plain-language snapshot the AI keeps updated
 ├── data/                  your raw results, by source
+│   ├── index.md           map of this folder, AI-maintained
 │   ├── bloodwork.md
 │   ├── body-composition.md
 │   ├── wearables.md
 │   └── genetics.md        (read the privacy note inside)
 ├── protocol/              what you're doing, and what the AI builds with you
+│   ├── index.md           map of this folder, AI-maintained
 │   ├── supplements.md
 │   ├── training.md
-│   └── nutrition.md
+│   ├── nutrition.md
+│   └── peptides.md        clinician-supervised compounds, GLP-1s and similar (safety note inside)
 ├── research/
+│   ├── index.md           map of this folder, AI-maintained
 │   └── open-questions.md  things you're still figuring out
 └── going-further/         optional: make it text you every morning (its README has the setup)
+    └── index.md           map of this folder
 ```
 
 Every file is a template with example (fake) data so you can see the shape. Replace it with yours, or let the prompt above do it with you.

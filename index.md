@@ -3,7 +3,8 @@
 > The map of this wiki, and the first thing to read. The AI keeps it current:
 > whenever a file is added, renamed, archived, or meaningfully updated, it
 > updates the matching line here with the date. If you're new, this tells you
-> what exists and where it lives. Example (fake) below.
+> what exists and where it lives. Each folder also has its own `index.md` that
+> maps just that folder. Example (fake) below.
 
 _Last updated: 2026-06-01_
 
@@ -22,6 +23,7 @@ _Last updated: 2026-06-01_
 - [protocol/supplements.md](protocol/supplements.md)
 - [protocol/training.md](protocol/training.md)
 - [protocol/nutrition.md](protocol/nutrition.md)
+- [protocol/peptides.md](protocol/peptides.md) — clinician-supervised compounds (safety note inside)
 
 ## Research
 - [research/open-questions.md](research/open-questions.md) — things I'm still figuring out

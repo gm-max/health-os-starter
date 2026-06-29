@@ -5,11 +5,14 @@ name: Daily Health OS coach
 #   ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 
 on:
-  schedule:
-    # 07:00 UTC every day. GitHub cron is always UTC, so adjust for your zone
-    # (e.g. 06:00 Paris winter -> "0 5 * * *"). Change the time, keep the format.
-    - cron: "0 7 * * *"
-  workflow_dispatch: {}   # lets you run it by hand from the Actions tab to test
+  # The daily schedule is OFF by default, so a fresh fork doesn't fail every
+  # morning before you've added your secrets. Once your 3 secrets are set
+  # (see going-further/README.md), uncomment the two lines below to turn on the
+  # daily text. GitHub cron is always UTC: "0 7 * * *" is 07:00 UTC. Adjust for
+  # your zone (e.g. 06:00 Paris winter -> "0 5 * * *").
+  # schedule:
+  #   - cron: "0 7 * * *"
+  workflow_dispatch: {}   # run it by hand from the Actions tab anytime
 
 jobs:
   coach:
