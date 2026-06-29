@@ -3,7 +3,8 @@
 > The map of this wiki, and the first thing to read. The AI keeps it current:
 > whenever a file is added, renamed, archived, or meaningfully updated, it
 > updates the matching line here with the date. If you're new, this tells you
-> what exists and where it lives. Example (fake) below.
+> what exists and where it lives. Each folder also has its own `index.md` that
+> maps just that folder. Example (fake) below.
 
 _Last updated: 2026-06-01_
 
