@@ -49,6 +49,8 @@ and tell me to see one.
 
 That's the whole setup. From here on, whenever you get a new lab or another month of wearable data, paste it to Claude and say "give me my read."
 
+**Just want to see it work first?** Before you change anything, ask it "give me my read." It runs on the example ("Jane Doe") data, so you see the output in about 30 seconds, then you decide if it's worth putting yours in.
+
 Prefer to do it yourself? Fork the repo or click **Use this template** at the top, drop the folder into your tool, and paste the same prompt.
 
 ---
@@ -73,8 +75,9 @@ health-os/
 │   ├── supplements.md
 │   ├── training.md
 │   └── nutrition.md
-└── research/
-    └── open-questions.md  things you're still figuring out
+├── research/
+│   └── open-questions.md  things you're still figuring out
+└── going-further/         optional: make it text you every morning (its README has the setup)
 ```
 
 Every file is a template with example (fake) data so you can see the shape. Replace it with yours, or let the prompt above do it with you.
@@ -95,6 +98,16 @@ You never format anything. Paste a raw lab PDF or an app export and the AI files
 
 ---
 
+## Going further: a coach that texts you every morning
+
+The folder answers when you ask. The next step is making it come to you: every morning it reads your data and sends you a short read on Telegram. No app, no dashboard, it just shows up. It's the same setup I run daily, and you can install the stripped-down version in about five minutes, with no server of your own.
+
+A free GitHub Action does the scheduling, so nothing of yours has to stay on. There's also a path to auto-pull your Whoop, Withings, or Strava data so the folder updates itself before each morning's read.
+
+How-to: **[going-further/](going-further/README.md)**.
+
+---
+
 ## Before you start, read this
 
 - **Your health data is sensitive.** Decide what's cloud vs local. If you use a cloud AI, don't upload anything you wouldn't want stored. Genetics especially (see `data/genetics.md`).
@@ -103,4 +116,6 @@ You never format anything. Paste a raw lab PDF or an app export and the AI files
 
 ---
 
-Built by Max Guérois. I run my own version of this daily. More at [maxguerois.com](https://maxguerois.com), reply to the newsletter and I'll send you updates as the template evolves.
+If this is useful: **star the repo** (it helps others find it), and **[subscribe at maxguerois.com](https://maxguerois.com)**. I send the automated version, template updates, and what I'm learning building my own health in the open, about one email a week. Reply to any of them and tell me what you're tracking. I read every one.
+
+Built by Max Guérois. I run this daily. Fork it, make it yours.
